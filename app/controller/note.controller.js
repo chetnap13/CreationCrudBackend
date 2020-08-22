@@ -2,7 +2,6 @@ const noteService = require('../services/note.services');
 exports.note_create = function(req,res,next){
     try {
         req.assert('name','name must be atleast three charactors').len(3);
-        console.log("this is inside the node controller");
         req.assert('city','city should nt be empty').notEmpty();
         
         var errors = req.validationErrors();
