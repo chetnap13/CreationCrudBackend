@@ -1,0 +1,6 @@
+0.create user.model.js in moddel folder and create schema of user
+1.create user.services.js in services folder
+2.create user.controller.0  in controller folder
+3.create user.route.js in route folder
+
+5.app.use import user route ---server.js
